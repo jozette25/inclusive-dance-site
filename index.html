@@ -1,45 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Inclusive Dance Education Resources and Advocacy">
-  <meta name="keywords" content="inclusive dance, dance education, accessibility, UDL, adaptive movement">
-  <title>Inclusive Dance Education</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inclusive Dance Studio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
   <header>
-    <h1>Inclusive Dance Education</h1>
+    <h1>Inclusive Dance Studio</h1>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Resources</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="resources.html">Resources</a></li>
       </ul>
     </nav>
   </header>
 
+  <!-- HERO IMAGE -->
+  <img src="images/dance-banner.jpg" alt="Dancers of all abilities moving together in a studio" class="hero-image" />
+
   <main>
-    <h2>Welcome!</h2>
-    <p>This website is dedicated to promoting inclusive practices in dance education. We believe that dance is for every body, and we aim to create a space where educators, families, and students can learn about adaptive movement strategies, equity, and accessibility in dance.</p>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        At Inclusive Dance Studio, we believe dance is for everyone. We welcome
+        dancers of all abilities, backgrounds, and identities to express
+        themselves through movement in a supportive environment.
+      </p>
+    </section>
 
-    <h2>Why Inclusive Dance?</h2>
-    <p>Inclusive dance allows people of all abilities to experience the joy of movement. By adapting dance instruction to meet diverse needs, we foster creativity, confidence, and community in every dancer.</p>
+    <section id="classes">
+      <h2>Classes We Offer</h2>
+      <ul>
+        <li>Adaptive Ballet</li>
+        <li>Lyrical & Expression</li>
+        <li>Inclusive Acro</li>
+        <li>Creative Movement</li>
+      </ul>
+    </section>
 
-    <img src="inclusive-dance.jpg" alt="Students dancing in a mixed-ability class" width="400">
+    <section id="instructors">
+      <h2>Meet Our Instructors</h2>
+      <p>
+        Our certified instructors have training in inclusive teaching practices,
+        ensuring every dancer receives the support and encouragement they need.
+      </p>
+    </section>
 
-    <p>Have questions? <a href="mailto:info@inclusivedance.org">Email us here</a></p>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
 
-    <p>Learn more about inclusive education at <a href="https://www.cast.org" target="_blank">CAST.org</a></p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Inclusive Dance Project | Created by Jozette Castillo</p>
+    <p>&copy; 2025 Inclusive Dance Studio | Accessibility First</p>
   </footer>
-
 </body>
 </html>
 
